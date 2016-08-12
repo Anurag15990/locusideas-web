@@ -20,8 +20,13 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-  app.import('vendor/css/landing-page.css');
-  app.import('vendor/font-awesome/css/font-awesome.min.css');
-  app.import('vendor/fonts/glyphicons-halflings-regular.svg');
+  app.import('vendor/css/style.css');
+  app.import('vendor/css/animate.css');
+  app.import('vendor/css/icomoon.css');
+  app.import('vendor/css/simple-line-icons.css');
+  app.import('vendor/css/magnific-popup.css"');
+  app.import('vendor/css/bootstrap.css');
+
+
   return app.toTree();
 };

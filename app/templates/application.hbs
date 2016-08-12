@@ -1,39 +1,25 @@
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<!-- Custom CSS -->
-<link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
-<!-- Custom Fonts -->
-
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-<!-- Navigation -->
-<nav class="navbar navbar-fixed-top topnav" role="navigation">
-    <div class="container topnav">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">LocusIdeas.</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                   {{#link-to "index"}}Home{{/link-to}}
-                </li>
-                <li>
-                  {{#link-to "index"}}Designers{{/link-to}}
-                </li>
-                <li>
-                  {{#link-to "index"}}Designs{{/link-to}}
-                </li>
-                <li>
-                  {{#link-to "index"}}Login{{/link-to}}
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<header role="banner" id="fh5co-header">
+    <div class="gradient"></div>
+    <div class="container">
+        <!-- <div class="row"> -->
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <!-- Mobile Toggle Menu Button -->
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                <a class="navbar-brand" href="index.html">LocusIdeas.</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-nav-section="home"><span>Home</span></a></li>
+                    <li><a href="#" data-nav-section="aboutUs"><span>About Us</span></a></li>
+                    <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+                    <li><a href="#" data-nav-section="team"><span>Our Team</span></a></li>
+                    <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- </div> -->
     </div>
-    <!-- /.container -->
-</nav>
+</header>
