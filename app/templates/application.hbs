@@ -1,0 +1,30 @@
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Mobile Toggle Menu Button -->
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    {{#link-to "index" class="navbar-brand"}}LocusIdeas.{{/link-to}}
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>{{#link-to "index"}}<span>Home</span>{{/link-to}}</li>
+                        <li>{{#link-to "projects"}}<span>Designs</span>{{/link-to}}</li>
+                        <li>{{#link-to "users.designers"}}<span>Designers</span>{{/link-to}}</li>
+                      {{#if session.isAuthenticated}}
+                          <li><a  {{action 'invalidateSession'}} ><span>Logout</span></a></li>
+                      {{else}}
+                          <li>{{#link-to "index"}}<span>Sign Up</span>{{/link-to}}</li>
+                          <li>{{#link-to "login"}}<span>Login</span>{{/link-to}}</li>
+                      {{/if}}
+                    </ul>
+                </div>
+            </nav>
+            <!-- </div> -->
+        </div>
+    </header>
+    <div class="body">
+      {{outlet}}
+    </div>
