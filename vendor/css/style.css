@@ -1490,12 +1490,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
 }
 
-.designs-list {
-  -moz-transform: translateY(10%);
-  -ms-transform: translateY(10%);
-  -webkit-transform: translateY(10%);
-  transform: translateY(10%);
-}
+
 
 .portfolio-item-image {
   height: 60%;
@@ -1503,15 +1498,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-item a {
   font-size: 16pt;
-  color: #52d3aa;
+  color: #52d3aa
 }
 
-.designers-listing {
-  -moz-transform: translateY(15%);
-  -ms-transform: translateY(15%);
-  -webkit-transform: translateY(15%);
-  transform: translateY(15%);
-}
 
 .designer-item h5 {
   color: #52d3aa;

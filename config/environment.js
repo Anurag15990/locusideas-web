@@ -31,7 +31,8 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    ENV.host = 'http://api-staging-c3po.locusideas.com';
+    // ENV.host = 'http://api-staging-c3po.locusideas.com';
+    ENV.host = 'http://localhost:3001';
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
