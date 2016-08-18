@@ -1,1 +1,8 @@
+<div class="container">
+    <div class="row designs-list">
+      {{#each model as |projectObject|}}
+        {{project-listing project=projectObject}}
+      {{/each}}
+    </div>
+</div>
 {{outlet}}

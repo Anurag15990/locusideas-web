@@ -1490,4 +1490,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
 }
 
+.designs-list {
+  -moz-transform: translateY(05%);
+  -ms-transform: translateY(05%);
+  -webkit-transform: translateY(05%);
+  transform: translateY(05%);
+}
+
+.designers-listing {
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  transform: translateY(15%);
+}
 /*# sourceMappingURL=style.css.map */
