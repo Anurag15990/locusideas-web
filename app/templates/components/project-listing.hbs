@@ -1,10 +1,10 @@
 <div class="col-md-4 portfolio-item">
-    <a href="#">
-        <img class="img-responsive" src="{{project.medias.initial.firstObject.media.url}}" alt="">
+    <a href="#" class="portfolio-item-image">
+        <img class="img-responsive center-block" src="{{cloudinary-url project.medias.initial.firstObject.media.cloudinaryId height="200"}}" alt="">
     </a>
     <h3>
-        <a href="#">{{project.title}}</a>
+        <a href="#" ><span class="center-block text-center">{{project.title}}</span></a>
     </h3>
-    <p>{{project.description}}</p>
+    <!--<p>{{project.description}}</p>-->
 </div>
 {{yield}}

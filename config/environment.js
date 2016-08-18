@@ -13,6 +13,12 @@ module.exports = function(environment) {
       }
     },
 
+    CLOUDINARY: {
+      CLOUD_NAME: 'dxtera6ex', // "cloud name" in Cloudinary
+      SECURE: false, // use https?
+      CDN_DISTRIBUTION: false // use CDN distribution if needed
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

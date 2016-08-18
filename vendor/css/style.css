@@ -1491,10 +1491,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .designs-list {
-  -moz-transform: translateY(05%);
-  -ms-transform: translateY(05%);
-  -webkit-transform: translateY(05%);
-  transform: translateY(05%);
+  -moz-transform: translateY(10%);
+  -ms-transform: translateY(10%);
+  -webkit-transform: translateY(10%);
+  transform: translateY(10%);
+}
+
+.portfolio-item-image {
+  height: 60%;
+}
+
+.portfolio-item a {
+  font-size: 16pt;
+  color: #52d3aa;
 }
 
 .designers-listing {
@@ -1502,5 +1511,9 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transform: translateY(15%);
   -webkit-transform: translateY(15%);
   transform: translateY(15%);
+}
+
+.designer-item h5 {
+  color: #52d3aa;
 }
 /*# sourceMappingURL=style.css.map */
