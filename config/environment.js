@@ -13,6 +13,12 @@ module.exports = function(environment) {
       }
     },
 
+    CLOUDINARY: {
+      CLOUD_NAME: 'dxtera6ex', // "cloud name" in Cloudinary
+      SECURE: false, // use https?
+      CDN_DISTRIBUTION: false // use CDN distribution if needed
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
@@ -25,7 +31,8 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    ENV.host = 'http://api-staging-c3po.locusideas.com';
+    // ENV.host = 'http://api-staging-c3po.locusideas.com';
+    ENV.host = 'http://localhost:3001';
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;

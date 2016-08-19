@@ -12,7 +12,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>{{#link-to "index"}}<span>Home</span>{{/link-to}}</li>
                         <li>{{#link-to "projects"}}<span>Designs</span>{{/link-to}}</li>
-                        <li>{{#link-to "users.designers"}}<span>Designers</span>{{/link-to}}</li>
+                        <li>{{#link-to "designers"}}<span>Designers</span>{{/link-to}}</li>
                       {{#if session.isAuthenticated}}
                           <li><a  {{action 'invalidateSession'}} ><span>Logout</span></a></li>
                       {{else}}

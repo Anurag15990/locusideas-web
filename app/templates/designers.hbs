@@ -1,0 +1,11 @@
+<div class="row-bottom-padded-lg"></div>
+<div class="container">
+  <div class="row designers-listing">
+    {{#each model as |userDesigner|}}
+      {{#if userDesigner.isDesigner}}
+        {{designers-listing userDesigner=userDesigner}}
+      {{/if}}
+    {{/each}}
+  </div>
+</div>
+{{outlet}}

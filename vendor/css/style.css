@@ -1490,4 +1490,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
 }
 
+
+
+.portfolio-item-image {
+  height: 60%;
+}
+
+.portfolio-item a {
+  font-size: 16pt;
+  color: #52d3aa
+}
+
+
+.designer-item h5 {
+  color: #52d3aa;
+}
 /*# sourceMappingURL=style.css.map */

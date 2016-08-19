@@ -1,0 +1,7 @@
+<div class="col-lg-4 col-sm-6 text-center designer-item">
+    <img class="img-circle img-responsive img-center center-block" src="{{cloudinary-url userDesigner.picture.cloudinaryId height="150"}}" alt="">
+    <h3>{{userDesigner.name.firstName}} {{userDesigner.name.lastName}}</h3>
+    <h5>{{userDesigner.emailPrimary.address}}</h5>
+    <p>{{userDesigner.bio.short}}</p>
+</div>
+{{yield}}
